@@ -1,6 +1,8 @@
 package com.example.fragmentchangeonetation;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String Hoten;
     private  int NamSinh;
     private  String DiaChi;
